@@ -2,11 +2,11 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-# LICENÇAS VÁLIDAS (depois você pode colocar banco)
 LICENCAS_VALIDAS = [
     "ELITE-123-456",
     "ELITE-789-000",
-    "VIP-ULTRA-999"
+    "VIP-ULTRA-999",
+    "MINHA-KEY-TESTE"
 ]
 
 @app.route("/")
